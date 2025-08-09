@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:loginView="http://schemas.android.com/apk/res-auto">
+    <item android:icon="?android:attr/actionModeSelectAllDrawable" android:id="@+id/select_action_menu_select_all" android:title="@android:string/selectAll" android:alphabeticShortcut="a" android:showAsAction="never|always|withText"/>
+    <item android:icon="?android:attr/actionModeCutDrawable" android:id="@+id/select_action_menu_cut" android:title="@android:string/cut" android:alphabeticShortcut="x" android:showAsAction="never|always|withText"/>
+    <item android:icon="?android:attr/actionModeCopyDrawable" android:id="@+id/select_action_menu_copy" android:title="@android:string/copy" android:alphabeticShortcut="c" android:showAsAction="never|always|withText"/>
+    <item android:icon="?android:attr/actionModePasteDrawable" android:id="@+id/select_action_menu_paste" android:title="@android:string/paste" android:alphabeticShortcut="v" android:showAsAction="never|always|withText"/>
+    <item android:id="@+id/select_action_menu_share" android:title="@string/actionbar_share" android:showAsAction="never|always|withText" style="@style/SelectActionMenuShare"/>
+    <item android:id="@+id/select_action_menu_web_search" android:title="@string/actionbar_web_search" android:showAsAction="never|always|withText" style="@style/SelectActionMenuWebSearch"/>
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:loginView="http://schemas.android.com/apk/res-auto">
+    <integer name="ga_sessionTimeout">60
+    </integer>
+    <string name="ga_trackingId">UA-27433056-1
+    </string>
+</resources>
